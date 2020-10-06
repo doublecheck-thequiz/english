@@ -24,8 +24,6 @@ function backHome(){
 }
 
 var url_string = window.location.href;
-alert(url_string);
 var url = new URL(url_string);
-alert(url)
 
 var check = url.searchParams.get("q1");
