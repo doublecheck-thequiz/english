@@ -16,7 +16,7 @@ function draw() {
   var check = url.searchParams.get("q1")
 
   if (frameCount >= 90 && check == 0) {
-    window.open('../fact/fact1w.html?q1=' + sbagliato, '_self');
+    window.location.replace('../fact/fact1w.html?q1=' + sbagliato, '_self');
   }
 }
 
