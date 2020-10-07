@@ -7,7 +7,7 @@ function setup() {}
 
 function draw() {
   $('#next1').click(function() {
-    window.open('../q/q2.html?q1=' + giusto, '_self');
+    window.location.replace('../q/q2.html?q1=' + giusto, '_self');
   });
 
   if(frameCount >= 21000){ //more or less after 3 minutes
@@ -20,7 +20,7 @@ function windowResized() {
 }
 
 function backHome(){
-  window.open('../index.html', '_self');
+  window.location.replace('../index.html', '_self');
 }
 
 var url_string = window.location.href;
