@@ -313,3 +313,6 @@ $(document).ready(function() {
 
 
 });
+
+// dropdown
+$('.dropdown-toggle').dropdown()

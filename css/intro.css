@@ -20,7 +20,6 @@
   --font-varhalf: bandeins_strangeBdExhalf;
 }
 
-
 .bodyl {
   background-color: var(--white);
   margin: 0px;
@@ -409,6 +408,12 @@ a:hover.sottolineatura {
 #START {
   width: 40%;
   cursor: pointer;
+}
+
+.btn-group {
+    cursor: pointer;
+  
+    align-content: center;
 }
 
 #HarveyI {
