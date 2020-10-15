@@ -20,6 +20,62 @@
   --font-varhalf: bandeins_strangeBdExhalf;
 }
 
+/* Dropdown Button */
+.dropbtn {
+  background-color: transparent;
+  color: black;
+  padding: 1rem 2rem;
+  font-size: 16px;
+  border: none;
+  font-family: var(--font-bold);
+  font-size: 1.5rem;
+  margin-right: -3rem;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-top: -2.2vh;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 23.3vh;
+  box-shadow: 5px 5px black;
+  z-index: 1;
+  border: 3px black solid;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  font-family: var(--font-bold);
+  font-size: 1rem;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: transparent;
+}
+
 .bodyl {
   background-color: var(--white);
   margin: 0px;
@@ -155,7 +211,6 @@ footer .container-fluid {
   position: relative;
 }
 
-
 .body5 {
   min-height: 100%;
   height: 100vh;
@@ -197,7 +252,6 @@ footer .container-fluid {
 }
 
 /* home page */
-
 .logobar {
   height: 80px;
 }
@@ -265,7 +319,7 @@ a:hover.sottolineatura {
   padding: 2vh 3rem 0 0;
   text-align: right;
   margin: 0;
-  background-color: var(--black);
+  background-color: var(--white);
   color: var(--white);
   border-bottom: 3px solid black;
   border-left: 3px solid white;
@@ -296,6 +350,8 @@ a:hover.sottolineatura {
   font-size: 7rem;
   line-height: 3rem;
   color: black;
+
+  z-index: 99;
 }
 
 .subtitle {
@@ -411,9 +467,8 @@ a:hover.sottolineatura {
 }
 
 .btn-group {
-    cursor: pointer;
-
-    align-content: center;
+  cursor: pointer;
+  align-content: center;
 }
 
 #HarveyI {
@@ -549,7 +604,6 @@ a:hover.sottolineatura {
 }
 
 /* Transizione */
-
 .animate-in {
   -webkit-animation: fadeIn .5s ease-in;
   animation: fadeIn .5s ease-in;
@@ -582,7 +636,6 @@ a:hover.sottolineatura {
 }
 
 /* Risultati finali */
-
 .result {
   background-color: var(--white);
   border: 0.1rem solid black;
@@ -649,14 +702,12 @@ a:hover.sottolineatura {
   top: 35%;
   z-index: 999;
   padding: 1rem 4rem;
-  left:1%;
+  left: 1%;
   font-size: 1.5rem;
   font-family: var(--font-medium);
 }
 
-
 /* media query schermo 4k */
-
 @media screen and (min-width: 3840px) {
   .logobar {
     height: 9vh;
@@ -688,7 +739,7 @@ a:hover.sottolineatura {
     padding: 2vh 4rem 0 0;
     text-align: right;
     margin: 0;
-    background-color: var(--black);
+    background-color: var(--white);
     color: var(--white);
     border-bottom: 5px solid black;
     border-left: 5px solid white;
@@ -1075,9 +1126,7 @@ a:hover.sottolineatura {
   }
 }
 
-
 /* mobile */
-
 @media only screen and (min-width: 320px) {
   .mobile {
     position: absolute;
@@ -1140,9 +1189,7 @@ a:hover.sottolineatura {
   }
 }
 
-
 /* tablet */
-
 @media only screen and (max-width: 1024px) {
   .logobar {
     height: 9vh;
@@ -1173,7 +1220,7 @@ a:hover.sottolineatura {
     padding: 1vh 2rem 0 0;
     text-align: right;
     margin: 0;
-    background-color: var(--black);
+    background-color: var(--white);
     color: var(--white);
     border-bottom: 3px solid black;
     border-left: 3px solid white;
@@ -1205,7 +1252,6 @@ a:hover.sottolineatura {
     color: white;
     font-size: 2rem;
   }
-
 
   .text1 {
     margin: 9vh 0 0 0;
@@ -1271,7 +1317,6 @@ a:hover.sottolineatura {
     margin-top: 1rem;
     text-align: center;
   }
-
 
   @keyframes float {
     0% {
