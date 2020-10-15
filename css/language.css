@@ -18,6 +18,7 @@
   --font-var: bandeins_strangeSBdExfull;
   --font-varbold: bandeins_strangeBdExfull;
   --font-varhalf: bandeins_strangeBdExhalf;
+  --font-bold-SLO: MuseoModerno-Bold;
 }
 
 /* Dropdown Button */
@@ -48,6 +49,7 @@
   box-shadow: 5px 5px black;
   z-index: 1;
   border: 3px black solid;
+  text-align: center;
 }
 
 /* Links inside the dropdown */
@@ -74,6 +76,10 @@
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: transparent;
+}
+
+#slo {
+  font-family: MuseoModerno;
 }
 
 .bodyl {
@@ -157,6 +163,13 @@
     url('../css/fonts/bandeinsstrangeboldextendedhalf-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoModerno-Bold';
+    src: url('../css/fonts/MuseoModerno-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 html {}
