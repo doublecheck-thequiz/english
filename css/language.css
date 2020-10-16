@@ -79,7 +79,7 @@
 }
 
 #slo {
-  font-family: MuseoModerno;
+  font-family: var(--font-bold-SLO);
 }
 
 .bodyl {
@@ -172,7 +172,6 @@
     font-style: normal;
 }
 
-html {}
 
 html, body {
   height: 100%;
